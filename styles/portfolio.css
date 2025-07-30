@@ -214,9 +214,7 @@ text-align: center;
     width: 1200px;
     margin: 0 auto;
 }
-.resume_container button{
-    
-}
+
 .resume_btn{
     text-align: center;
 }
@@ -293,13 +291,20 @@ text-align: center;
     margin: 20px 0;
     padding:30px 10px ;
     border: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
 }
 .text_area{
     width: 100%;
     border: none;
     padding: 30px 10px;
     border-radius: 2px;
-    margin: 20px 0
+    margin: 20px 0;
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+
 }
 .conect_section_content{
     width: 50%;
@@ -311,6 +316,16 @@ text-align: center;
     display: flex;
     gap: 30px;
 }
-
+.conect_section_container h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.conect_section_content p{
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+color: #474747;
+}
 
 
