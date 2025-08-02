@@ -174,7 +174,7 @@ border: 2px solid #ddd;
 }
 /* What I Do section */
 .What_i_do_container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 50px auto;
 }
 .What_i_do_section_content{
@@ -328,4 +328,166 @@ line-height: 28px;
 color: #474747;
 }
 
+@media screen and (max-width: 576px) {
+    body {
+        padding: 0 10px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+        gap: 10px;
+    }
+
+    .nav-title {
+        font-size: 32px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin: 0;
+    }
+    .header{
+        background-image: none;
+    }
+
+    .btn-primary,
+    .btn_secondary {
+        font-size: 16px;
+        padding: 10px 20px;
+        width: 100%;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 20px 0;
+        gap: 20px;
+    }
+
+    .banner-content {
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .banner-greetings {
+        font-size: 20px;
+    }
+
+    .banner-profile-pic {
+        width: 100%;
+        max-width: 280px;
+    }
+
+    .about {
+        padding: 50px 20px;
+        margin: 50px 0;
+        gap: 30px;
+    }
+
+    .about_section_info {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card_container {
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+
+    .card {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .resume_section {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .resume_container h3 {
+        font-size: 28px;
+        margin: 30px 0;
+    }
+
+    .resume_content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .resume_education > h4 {
+        font-size: 24px;
+    }
+
+    .resume_education_BA h4 {
+        font-size: 18px;
+    }
+
+    .resume_education_BA span {
+        font-size: 14px;
+    }
+
+    .resume_education_BA p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .conect_section_container {
+        flex-direction: column;
+        padding: 50px 15px;
+        gap: 40px;
+    }
+
+    .conect_section_form,
+    .conect_section_content {
+        width: 100%;
+    }
+
+    .Input,
+    .text_area {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .conect_section_icon {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .section-discription {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .btn-primary,
+    .btn_secondary {
+        width: 100%;
+    }
+
+    .banner_btn {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
 
